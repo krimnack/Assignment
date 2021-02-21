@@ -10,7 +10,11 @@ class Calc{
 		int b = sc.nextInt();
 	
 		System.out.println(add(a,b));
+
+		System.out.println(sub(a,b));
+		
 		System.out.println(mul(a,b));
+
 
 	}
 
@@ -21,6 +25,16 @@ class Calc{
 		return result;
 	}
 	
+
+	static int sub(int a, int b){
+
+		int result = a-b;
+
+		return result;
+	
+	}
+	
+
 	static int mul(int a, int b ){
 		
 		int result = a*b;
@@ -29,3 +43,4 @@ class Calc{
 	}
 
 }
+
