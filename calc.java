@@ -10,7 +10,7 @@ class Calc{
 		int b = sc.nextInt();
 	
 		System.out.println(add(a,b));
-
+		System.out.println(sub(a,b));
 	}
 
 	static int add(int a, int b){
@@ -18,6 +18,12 @@ class Calc{
 		int result = a+b;
 
 		return result;
+	}
 	
+	static int sub(int a, int b ){
+		
+		int result = a-b;
+		
+		return result;
 	}
 }
