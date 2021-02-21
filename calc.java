@@ -10,6 +10,7 @@ class Calc{
 		int b = sc.nextInt();
 	
 		System.out.println(add(a,b));
+		System.out.println(mul(a,b));
 
 	}
 
@@ -26,6 +27,5 @@ class Calc{
 		
 		return result;
 	}
-	
-	
+
 }
