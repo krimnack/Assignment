@@ -10,7 +10,7 @@ class Calc{
 		int b = sc.nextInt();
 	
 		System.out.println(add(a,b));
-		System.out.println(sub(a,b));
+
 	}
 
 	static int add(int a, int b){
@@ -26,4 +26,6 @@ class Calc{
 		
 		return result;
 	}
+	
+	
 }
