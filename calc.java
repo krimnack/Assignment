@@ -19,14 +19,13 @@ class Calc{
 		int result = a+b;
 
 		return result;
-	
 	}
-
-	static int mul(int a, int b){
-
-		int result = a*b;
-
+	
+	static int sub(int a, int b ){
+		
+		int result = a-b;
+		
 		return result;
-	
 	}
+
 }
