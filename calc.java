@@ -11,7 +11,9 @@ class Calc{
 	
 		System.out.println(add(a,b));
 
+
 		System.out.println(sub(a,b));
+
 		
 		System.out.println(mul(a,b));
 
@@ -26,11 +28,12 @@ class Calc{
 	}
 	
 
+
 	static int sub(int a, int b){
 
 		int result = a-b;
 		
-		return Math.abs(result);
+		return result;
 	
 	}
 	
@@ -43,4 +46,8 @@ class Calc{
 	}
 
 }
+
+
+	
+
 
